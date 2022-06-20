@@ -2,21 +2,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 1906px;
 }
 
 header {
     background-color: aqua;
-    width: 1906px;
     height: 81px;
     display: flex;
     align-content: center;
-    padding: 25px 366px;
 }
 
 .section_1 {
-    max-width: 1906;
-    min-height: 494;
+    height: 494px;
     display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .navigator_flex {
@@ -30,6 +31,7 @@ header {
     border: 2px dashed black;
     padding: 5px;
     background-color: orange;
+    align-self: center;
 }
 
 .logo .login { 
@@ -45,5 +47,6 @@ header {
     background-color: deeppink;
     width: 901px;
     height: 387px;
+    align-self: center;
 
 }
