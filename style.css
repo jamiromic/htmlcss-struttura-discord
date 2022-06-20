@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,13 +12,6 @@ header {
     align-content: center;
 }
 
-.section_1 {
-    height: 494px;
-    display: flex;
-    background-color: aquamarine;
-    flex-direction: row;
-    justify-content: center;
-}
 
 .navigator_flex {
     display: flex;
@@ -34,13 +27,20 @@ header {
     align-self: center;
 }
 
-.logo .login { 
+.logo .login {
     flex-basis: 20%;
 }
 
 .link {
     flex-basis: 60;
-    max-width: 702px;
+}
+
+.section_1 {
+    height: 494px;
+    display: flex;
+    background-color: blue;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .container_1 {
@@ -48,5 +48,98 @@ header {
     width: 901px;
     height: 387px;
     align-self: center;
+
+}
+
+.section_2 {
+    height: 601px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+}
+
+.contsection_2 {
+    width: 1192px;
+    height: 522px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.items_2 {
+    background-color: deeppink;
+    flex-basis: 40%;
+
+}
+
+.items_1 {
+    background-color: dodgerblue;
+    flex-basis: 60%;
+
+}
+
+
+.section_3 {
+    height: 601px;
+    display: flex;
+    flex-direction: row;    
+    justify-content: center;
+    background-color: grey;
+}
+
+.contsection_3 {
+    width: 1192px;
+    height: 522px;
+    align-self: center;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.section_4 {
+    height: 985px;
+    display: flex;
+    background-color: grey;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container_4 {
+    background-color: green;
+    width: 1175px;
+    height: 868px;
+    align-self: center;
+
+}
+
+.section_5 {
+    height: 731px;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contsection_5 {
+    width: 1192px;
+    height: 596px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.items_3 {
+    background-color: red;
+    flex-basis: 66%;
+    border: 2px dashed black;
+
+}
+
+.items_4 {
+    background-color: green;
+    flex-basis: 33%;
+    border: 2px dashed black;
 
 }
