@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aqua;
+    width: 1906px;
+    height: 81px;
+    display: flex;
+    align-content: center;
+    padding: 25px 366px;
+}
+
+.section_1 {
+    max-width: 1906;
+    min-height: 494;
+    display: flex;
+}
+
+.navigator_flex {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 34px;
+    width: 1192px;
+    border: 2px dashed black;
+    padding: 5px;
+    background-color: orange;
+}
+
+.logo .login { 
+    flex-basis: 20%;
+}
+
+.link {
+    flex-basis: 60;
+    max-width: 702px;
+}
+
+.container_1 {
+    background-color: deeppink;
+    width: 901px;
+    height: 387px;
+
+}
