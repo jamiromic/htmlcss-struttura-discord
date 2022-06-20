@@ -48,6 +48,7 @@ header {
     width: 901px;
     height: 387px;
     align-self: center;
+    border: 1px dashed black;
 
 }
 
@@ -70,12 +71,14 @@ header {
 .items_2 {
     background-color: deeppink;
     flex-basis: 40%;
+    border: 1px dashed black;
 
 }
 
 .items_1 {
     background-color: dodgerblue;
     flex-basis: 60%;
+    border: 1px dashed black;
 
 }
 
@@ -107,9 +110,10 @@ header {
 
 .container_4 {
     background-color: green;
-    width: 1175px;
-    height: 868px;
+    width: 1192px;
+    height: 893px;
     align-self: center;
+    border: 1px dashed black;
 
 }
 
@@ -123,7 +127,7 @@ header {
 
 .contsection_5 {
     width: 1192px;
-    height: 596px;
+    height: 553px;
     align-self: center;
     display: flex;
     flex-direction: row;
@@ -133,13 +137,22 @@ header {
 .items_3 {
     background-color: red;
     flex-basis: 66%;
-    border: 2px dashed black;
+    border: 1px dashed black;
 
 }
 
 .items_4 {
     background-color: green;
     flex-basis: 33%;
-    border: 2px dashed black;
+    border: 1px dashed white;
+
+}
+
+.contsection_5_1 {
+    width: 1192px;
+    height: 58px;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
 
 }
